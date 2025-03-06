@@ -6,7 +6,7 @@ on:
       state:
         description: 'U.S. state to scrape'
         required: true
-        default: 'ia'
+        default: 'ca'
   schedule:
   - cron: "0 0 * * *"
 
