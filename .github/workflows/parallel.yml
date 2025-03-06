@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        state: [ca, ia, ny]
+        state: [ak, al, az]
     steps:
       - name: Hello world
         run: echo "Scraping data for ${{ matrix.state }}"
